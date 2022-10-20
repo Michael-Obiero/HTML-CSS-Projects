@@ -4,6 +4,8 @@ header,p,h1,h2{
   }
   figcaption{
     font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
   }
   img {
     max-width: 100%;
@@ -17,4 +19,11 @@ header,p,h1,h2{
   }
   footer{
     text-align: center;
+    font-weight: bold;
+  }
+  link{
+    text-align: center;
+  }
+  li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
