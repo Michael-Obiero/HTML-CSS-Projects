@@ -1,0 +1,32 @@
+label{
+    display: block;
+    width: 0.5rem 0;
+    height:5px 0;
+  }
+  input, select{
+    display: inline;
+  }
+  h1,p{
+    text-align: center;
+    background-color:brown;
+  }
+  form{
+    background-color: brown;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  html{
+    background-color: brown;
+  }
+  input[type="text"]{
+    width: 30rem
+  }
+  input[type="email"]{
+    width: 30rem
+  }
+  input[type="number"]{
+    width: 30rem
+  }
+  a{
+    color:#3b3b4f;
+  }

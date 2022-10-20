@@ -1,0 +1,49 @@
+#header-img{
+    width: 160px;
+    height: 100px;
+    background-color: #121212;
+  }
+  .logo-img{
+    width: 160px;
+  }
+  .nav-bar{
+    display: flex;
+    float: right;
+    background-color: #2222
+  }
+  .nav-link{
+    text-decoration: none;
+    background-color: #2222;
+    border: 
+  }
+  header{ 
+    position: fixed; 
+    top: 0px; 
+    width: 100%; 
+    height: 35px;
+    background-color: #2222; 
+    }
+    body { 
+      margin-top: 100px; 
+      }
+  p{
+    margin-left: 10px;
+  }
+  h1{
+    text-align: center
+  }
+  #img-1,img-2,img-3{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  footer{
+    text-align: center;
+    background-color: #3333;
+  }

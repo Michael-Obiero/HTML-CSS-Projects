@@ -1,0 +1,41 @@
+.nav-link{
+    display: block;
+    font-size: 20;
+    text-decoration: none
+     }
+    .container{
+      padding-left: 15px;
+      float: edge-left;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: auto;
+      overflow: auto;
+    }
+    .main-section{
+      float: right;
+      margin-left: 200px;
+      padding: 1px 16px;
+      background-color: #c2c2b2;
+      padding-bottom: 10px;
+    }
+    header{
+      content: '';
+      display: table;
+      padding-bottom: 10px;
+      }
+  @media screen and (max-width: 400px) {
+    .container {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  footer{
+    text-align: left;
+  }
+  *{
+    margin: 0 0 0 4;
+  }

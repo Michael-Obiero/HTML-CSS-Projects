@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="Survey Form.css"/>
+  <h1  id="title">
+    <title>FreeCodeCamp Survey Form</title>
+ FreeCodeCamp Survey Form
+ </h1>
+  <p id="description">Thank you for taking your time to fill this form, your contribution is highly valued</p>
+  <hr/>
+  <form id="survey-form">
+    <label id="name-label">Name: <input id="name"type="text" placeholder="Enter your first and last name"/ required></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="Enter your email"/ required></label>
+    <label id="number-label">Age: <input id="number" type="number" min="13" max="100" placeholder="Enter your age" required/></label>
+    What is your current occupation? <label><select id="dropdown" required>
+      <option value="">(select one)</option>
+      <option value= "1">Student</option>
+      <option value="2">Unemployed</option>
+      <option value="3">Employed</option>
+    </select></label>
+<label>
+      Do you like freeCodeCamp? 
+      <label><input type="radio" name="opinion" value="1"/>Yes</label>
+      <label><input type="radio" name="opinion" value="2"/>Maybe</label>
+      <label><input type="radio" name="opinion" value="3"/>Not really</label>
+</label>
+<label>
+ What programing languages do you want to learn ? (choose all that apply)
+ <label><input type="checkbox" value="1"/>HTML</label>
+ <label><input type="checkbox" value="2"/>CSS</label>
+ <label><input type="checkbox" value="3"/>Python</label>
+ <label><input type="checkbox" value="4"/>Java</label>
+ <label><input type="checkbox" value="5"/>Javascript</label>
+ <label><input type="checkbox" value="6"/>C</label>
+ <label><input type="checkbox" value="7"/>C++</label>
+ <label><input type="checkbox" value="8"/>Rubby rails</label>
+ <label><input type="checkbox" value="9"/>Django</label>
+ <label><input type="checkbox" value="10"/>SQLITE</label>
+ <label><input type="checkbox" value="11"/>All of the above</label>
+</label>
+<label><textarea minlength="50"></textarea></label>
+<label><button id="submit">Submit</button></label>
+  </form>
+  <hr/>
+  <p>Form created by Michael Obiero</p>
+  <p>All Rights Reserved <a href="www.freecodecamp.com">FreeCodeCamp</p>
+</html>

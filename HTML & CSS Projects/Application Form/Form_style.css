@@ -1,0 +1,13 @@
+html{
+    background-color:whitesmoke;
+}
+header{
+    text-align: center;
+}
+#title{
+    font-weight: bold;
+    font-style: italic;
+}
+p span{
+    color: red;
+}
