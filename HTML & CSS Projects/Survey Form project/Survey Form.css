@@ -8,15 +8,15 @@ label{
   }
   h1,p{
     text-align: center;
-    background-color:brown;
+    background-color:rgb(232, 223, 223);
   }
   form{
-    background-color: brown;
+    background-color: rgb(237, 228, 228);
     padding-top: 2em;
     padding-bottom: 2em;
   }
   html{
-    background-color: brown;
+    background-color: rgb(239, 231, 231);
   }
   input[type="text"]{
     width: 30rem
