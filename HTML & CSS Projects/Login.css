@@ -1,0 +1,127 @@
+html{
+    margin: auto;
+    padding: 0;
+    background-color: #52617f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    height:70vh;
+    border-radius: 10px;
+  }
+    
+h1{
+    text-align: center;
+}
+input{
+    display: block;
+    margin-top: 10px;
+}
+label{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  a[href="/forgot-password"] {
+    color: #333;
+    text-decoration: underline;
+  }
+  input[type="text"], input[type="password"] {
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  input[type="password"], input[type="text"], input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  form {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+form.shake {
+    animation: shake 0.5s ease-in-out forwards;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+input[type="submit"]:hover {
+    background-color: #00BFFF;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    perspective: 1px;
+    height: 100vh;
+}
+
+
+  
+  
